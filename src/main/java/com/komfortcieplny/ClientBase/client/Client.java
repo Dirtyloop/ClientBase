@@ -27,4 +27,5 @@ public class Client implements Serializable {
     private double acPower;
     private String acCode;
     private LocalDate dateOfInstalation;
+    private boolean inspected;
 }
