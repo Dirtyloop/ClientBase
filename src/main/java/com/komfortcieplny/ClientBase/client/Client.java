@@ -25,6 +25,7 @@ public class Client implements Serializable {
     private String acBrand;
     private String acModel;
     private double acPower;
+    private String refrigerant;
     private String acCode;
     private LocalDate dateOfInstalation;
     private boolean inspected;

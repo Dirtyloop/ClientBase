@@ -31,6 +31,8 @@ public class ClientService {
     }
 
     public Client findClient(Long id) {
-        return clientRepository.findById(id).orElseThrow(() -> new ClientNotFoundException(String.format("Client with id: %s was not found", id)));
+        return clientRepository
+                .findById(id).orElseThrow(() ->
+                        new ClientNotFoundException(String.format("Client with id: %s was not found", id)));
     }
 }
